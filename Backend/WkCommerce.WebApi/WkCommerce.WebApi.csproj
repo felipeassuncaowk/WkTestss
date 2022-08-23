@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>c4598601-819c-4281-81c5-1a8214a0b0f9</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="11.2.0" />
+        <PackageReference Include="MediatR" Version="10.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.8" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+        <PackageReference Include="Scrutor" Version="4.2.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WkCommerce.Application\WkCommerce.Application.csproj" />
+      <ProjectReference Include="..\WkCommerce.Core\WkCommerce.Core.csproj" />
+      <ProjectReference Include="..\WkCommerce.Domain\WkCommerce.Domain.csproj" />
+      <ProjectReference Include="..\WkCommerce.Infrastucture\WkCommerce.Infrastucture.csproj" />
+    </ItemGroup>
+
+</Project>

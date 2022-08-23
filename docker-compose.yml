@@ -1,0 +1,28 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./Backend/WkCommerce.WebApi
+    ports:
+      - 5010:80
+    networks:
+      - app-tier
+    environment:
+      - ASPNETCORE_ENVIROMENT=Development      
+  
+  frontend:
+    build:
+      context: ./Frontend
+    ports:
+      - 3010:80
+    networks:
+      - app-tier
+    depends_on:
+      - backend
+   
+networks:
+  app-tier:
+    driver: bridge
+    
+  
+       

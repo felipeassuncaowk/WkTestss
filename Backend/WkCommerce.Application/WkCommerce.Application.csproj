@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WkCommerce.Core\WkCommerce.Core.csproj" />
+      <ProjectReference Include="..\WkCommerce.Domain\WkCommerce.Domain.csproj" />
+      <ProjectReference Include="..\WkCommerce.Infrastucture\WkCommerce.Infrastucture.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.2.0" />
+    </ItemGroup>
+
+</Project>

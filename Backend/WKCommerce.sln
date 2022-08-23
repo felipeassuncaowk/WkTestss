@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WkCommerce.WebApi", "WkCommerce.WebApi\WkCommerce.WebApi.csproj", "{8606B812-CB96-467E-BB15-3AC8C58CE5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WkCommerce.Core", "WkCommerce.Core\WkCommerce.Core.csproj", "{16825ADB-08E6-4109-B1CC-FB13E56AA137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WkCommerce.Application", "WkCommerce.Application\WkCommerce.Application.csproj", "{559374A9-4DFC-428A-A527-F0446A0C4693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WkCommerce.Infrastucture", "WkCommerce.Infrastucture\WkCommerce.Infrastucture.csproj", "{415CE1D1-4D7D-4351-A5DD-4E3A5D728919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WkCommerce.Domain", "WkCommerce.Domain\WkCommerce.Domain.csproj", "{3B697091-25E1-44DB-9562-D52E83179093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[1] - WebApi", "[1] - WebApi", "{2DF338DB-46A5-4617-9268-9ABA1D5E816A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[2] - Application", "[2] - Application", "{224A99E8-578B-47F9-8D74-287647E2B92E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[3] - Infrastructure", "[3] - Infrastructure", "{90FA6C21-3533-47A6-BBC3-EAB93ECDCBA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[4] - Domain", "[4] - Domain", "{931A792D-D12C-475E-8675-EFC7AFF985C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[5] - Core", "[5] - Core", "{CCACFCAF-17F4-4264-B674-D1AA9A71C7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8606B812-CB96-467E-BB15-3AC8C58CE5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8606B812-CB96-467E-BB15-3AC8C58CE5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8606B812-CB96-467E-BB15-3AC8C58CE5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8606B812-CB96-467E-BB15-3AC8C58CE5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16825ADB-08E6-4109-B1CC-FB13E56AA137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16825ADB-08E6-4109-B1CC-FB13E56AA137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16825ADB-08E6-4109-B1CC-FB13E56AA137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16825ADB-08E6-4109-B1CC-FB13E56AA137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559374A9-4DFC-428A-A527-F0446A0C4693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559374A9-4DFC-428A-A527-F0446A0C4693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559374A9-4DFC-428A-A527-F0446A0C4693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559374A9-4DFC-428A-A527-F0446A0C4693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415CE1D1-4D7D-4351-A5DD-4E3A5D728919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415CE1D1-4D7D-4351-A5DD-4E3A5D728919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415CE1D1-4D7D-4351-A5DD-4E3A5D728919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415CE1D1-4D7D-4351-A5DD-4E3A5D728919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B697091-25E1-44DB-9562-D52E83179093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B697091-25E1-44DB-9562-D52E83179093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B697091-25E1-44DB-9562-D52E83179093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B697091-25E1-44DB-9562-D52E83179093}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8606B812-CB96-467E-BB15-3AC8C58CE5DF} = {2DF338DB-46A5-4617-9268-9ABA1D5E816A}
+		{16825ADB-08E6-4109-B1CC-FB13E56AA137} = {CCACFCAF-17F4-4264-B674-D1AA9A71C7B2}
+		{559374A9-4DFC-428A-A527-F0446A0C4693} = {224A99E8-578B-47F9-8D74-287647E2B92E}
+		{415CE1D1-4D7D-4351-A5DD-4E3A5D728919} = {90FA6C21-3533-47A6-BBC3-EAB93ECDCBA0}
+		{3B697091-25E1-44DB-9562-D52E83179093} = {931A792D-D12C-475E-8675-EFC7AFF985C0}
+	EndGlobalSection
+EndGlobal
